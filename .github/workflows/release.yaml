@@ -11,7 +11,7 @@ jobs:
     name: Build
     runs-on: ubuntu-22.04
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix:
         target:
           - aarch64-unknown-linux-musl
